@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: 0;
+    font-family: sans-serif; 
+}
+body{
+    background-color: rgba(143, 187, 253, 0.562);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.form{
+    background:rgba(194, 216, 248, 0.562);
+    width: 50%;
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border: 7px solid rgba(27, 24, 189, 0.301);
+    border-radius: 20px;
+    margin-top: 50px;
+}
+h1{
+    background: rgba(18, 36, 201, 0.096);
+}
+input{
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    font-size: 14px;
+}
+input[type="submit"]{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 35px;
+    background-color: rgba(49, 77, 231, 0.842);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+input[type="button"]{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 35px;
+    background-color: rgba(49, 77, 231, 0.842);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+input[type="submit"]:hover{
+    background: rgb(44, 42, 151);
+    color: cornsilk;
+}
+input[type="button"]:hover{
+    background: rgb(44, 42, 151);
+    color: cornsilk;
+}
+textarea{
+    border: cornsilk;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 14px;
+}
+input[type="file"]{
+    display:
+}
+/*colocar display= none, faz o botao de imput sumir*/

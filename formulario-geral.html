@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos CSS/stylesFormulario.css" />
+    <title>Formulário</title>
+</head>
+<body>
+
+
+    <div class="form">
+        <h1> Sistema de Cadastro de Alunos</h1><br><br><br>
+        <h2>Cadastro</h2><br><br>
+
+        <label for="nome">Nome:</label>
+        <input type="text"size="40"placeholder="Nome do aluno"> <br><br>
+        <label for="ra">RA:</label>
+        <input type="text"placeholder="RA do aluno">
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" name="data" id="data"><br><br>
+        <label for="cpf">CPF:</label>
+        <input type="text"placeholder="CPF do aluno">
+        <label for="rg">RG:</label>
+        <input type="text"placeholder="RG do aluno"><br><br>
+
+        <label for="sexo">Sexo:</label> &nbsp; &nbsp;
+        <label for="mas">Masculino:</label>
+        <input type="radio"name="opcao" id="op1">
+        <label for="fem">Feminino:</label>
+        <input type="radio"name="opcao" id="op1">
+        <label for="outro">Outros:</label>
+        <input type="radio"name="opcao" id="op1"><br><br>
+        <h2>Responsáveis</h2><br><br>
+            <label for="nome">Nome da Mãe:</label>
+            <input type="text"size="40"placeholder="Nome da Mãe"><br><br>
+            <label for="cpf">CPF:</label>
+            <input type="text"placeholder="231.231.231-00">
+            <label for="rg">RG:</label>
+            <input type="text"placeholder="RG da Mãe"><br><br>
+            <label for="nome">Nome do Pai:</label>
+            <input type="text"size="40"placeholder="Nome do Pai"><br><br>
+            <label for="cpf">CPF:</label>
+            <input type="text"placeholder="231.231.231-00">
+            <label for="rg">RG:</label>
+            <input type="text"placeholder="RG do Pai"><br><br>
+            <h3>Outro Responsável Legal</h3><br>
+            <label for="nome">Nome do Responsável:</label>
+            <input type="text"size="40"placeholder="Nome do responsável"><br><br>
+            <label for="cpf">CPF:</label>
+            <input type="text"placeholder="CPF do responsável">
+            <label for="rg">RG:</label>
+            <input type="text"placeholder="RG do responsável"><br><br>
+            <label for="obs">OBS:</label>
+            <input type="text" size="50" placeholder="Observação"><br><br>
+            <textarea name="text" id="text" cols="70" rows="5"></textarea><br><br><br>
+        
+        <h2>Endereço</h2><br><br>
+        <label for="rua">Rua:</label>
+        <input type="text"size= "40" placeholder="Logradouro">
+        <label for="nu">Número:</label>
+        <input type="text"size="S" placeholder="Número"><br><br>
+        <label for="bairro">Bairro:</label>
+        <input type="text"placeholder="Bairro">
+        <label for="cidade">Cidade:</label>
+        <input type="text"placeholder="Cidade"><br><br>
+        <label for="estado">Estado:</label>
+        <input type="text"size= "2"placeholder="SP">
+        <label for="cep">CEP:</label>
+        <input type="text"placeholder="13580-000"><br><br>
+        <label for="tel">Telefone:</label>
+        <input type="text"placeholder="(16)9999-9999">
+        <label for="telrecado">Telefone para recado:</label>
+        <input type="text"placeholder="(16)9999-9999"><br><br>
+        <label for="outrostel">Outros Telefones:</label>
+        <input type="text" size="50" placeholder="(16)9999-9999"><br><br>
+        <h1> Informações Escolares</h1><br><br><br>
+        <label for="nome-escola">Nome da Escola:</label>
+        <input type="text"size="40"placeholder="Nome da Escola">
+        <br><br>
+        <label for="prof">Professor:</label>
+        <input type="text"size="40" placeholder="Nome do Professor">
+        <label for="serie">Série/Ano:</label>
+        <input type="text"size="8" placeholder="1º ano"><br><br>
+        <label for="periodo">Período Escolar:</label> &nbsp; &nbsp;
+        <label for="manha">Manhã:</label>
+        <input type="radio"name="opcao" id="op1">
+        <label for="tarde">Tarde:</label>
+        <input type="radio"name="opcao" id="op1"> <br><br>
+        <label for="prof-especial"> Professor de Educação Especial:</label>
+        <input type="text"size="40" placeholder="Nome do Professor Ed. Especial"><br><br>
+        <label for="horario"> Horário de Atendimento:</label><br>
+        <textarea name="text" id="text" placeholder="Horário de Atentimento" cols="40" rows="8"></textarea><br><br><br>
+        <label for="need">Necessidade de Cuidador:</label> &nbsp; &nbsp;
+        <label for="sim">Sim:</label>
+        <input type="radio"name="opcao" id="op1">
+        <label for="nao">Não:</label>
+        <input type="radio"name="opcao" id="op1"> <br><br>
+        <label for="cuidador">Cuidador:</label>
+        <input type="text"size="40" placeholder="Nome do Cuidador"><br><br>
+        <label for="laudo">Aluno com Laudo:</label> &nbsp; &nbsp;
+        <label for="sim">Sim:</label>
+        <input type="radio"name="opcao" id="op1">
+        <label for="nao">Não:</label> 
+        <input type="radio"name="opcao" id="op1"><br><br>
+        <label for="deficiencia">Deficiência:</label>
+        <input type="text"size="40" placeholder="Tipo de Deficiência"><br><br>
+        <textarea name="text" id="text" placeholder="Sobre a Deficiência" cols="40" rows="8"></textarea><br><br><br>
+
+        
+        <h2>Transporte</h2><br><br>
+        <label for="motorista">Motorista:</label>
+        <input type="text"size= "40" placeholder="Nome do Motorista"><br><br>
+        <label for="linha">Linha:</label>
+        <input type="text"size="40" placeholder="Nome da Linha"><br><br>
+        <label for="de">De:</label>
+        <input type="text"size="20" placeholder="Origem">
+        <label for="para">Para:</label>
+        <input type="text"size="20" placeholder="Para"><br><br>
+        <label for="obs">OBS:</label><br>
+        <textarea name="text" id="text" placeholder="Outras Informações" cols="40" rows="8"></textarea><br><br><br>
+
+        <h1>RELATÓRIOS</h1><br><br>
+
+        <h2>Resumo do Caso do Aluno</h2><br>
+        <label for="need">Aluno com Laudo:</label> &nbsp; &nbsp;
+<label for="sim">Sim:</label>
+<input type="radio"name="opcao" id="op1">&nbsp; &nbsp;
+<label for="nao">Não:</label> 
+<input type="radio"name="opcao" id="op1"><br><br>
+
+<input type="file" id="aquivos" name="fileAluno"><br><br>
+        <textarea name="text" id="text" cols="50" rows="5"></textarea><br><br><br>
+
+        <h2>Relatórios Pedagogicos</h2><br>
+<input type="file" id="aquivos" name="fileAluno"><br><br>
+        <textarea name="text" id="text" cols="50" rows="5"></textarea><br><br><br>
+
+        <h2>Relatórios Médicos</h2><br>
+<input type="file" id="aquivos" name="fileAluno"><br><br>
+        <textarea name="text" id="text" cols="50" rows="5"></textarea><br><br><br>
+
+        
+            <h1>OUTRAS INFORMAÇÕES</h1><br><br>
+
+
+    <input type="file" id="aquivos" name="fileAluno"><br><br>
+            <textarea name="text" id="text" cols="50" rows="5"></textarea><br><br><br>
+
+        <input type="submit" value="Enviar">&nbsp;&nbsp;&nbsp;
+        <input type="button" value="Voltar">
+
+    </div>
+</body>
+</html>
